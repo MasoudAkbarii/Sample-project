@@ -53,6 +53,9 @@
 }
 /* col-xs */
 @media only screen and (max-width: 600px) {
+  .xs-hidden{
+    display: none;
+  }
   .col-xs-1 {
     width: 8.33%;
   }
