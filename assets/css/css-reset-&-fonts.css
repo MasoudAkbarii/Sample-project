@@ -4,6 +4,9 @@
     url(../fonts/Vazir-Regular.woff) format(woff),
     url(../fonts/Vazir-Regular.woff2) format(woff2);
 }
+body {
+  direction: rtl;
+}
 * {
   margin: 0;
   padding: 0;

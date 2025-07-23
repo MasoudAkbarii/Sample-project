@@ -1,0 +1,32 @@
+/* start contact seaction */
+.container-fluid-custom {
+  background-color: rgb(11, 11, 109);
+  color: #fff;
+  height: 40px;
+}
+.container-fluid-custom .contact {
+  font-size: 13px;
+}
+.container-fluid-custom .contact i{
+  color: orangered;
+  padding-left: 10px;
+  vertical-align: -10px;
+}
+.container-fluid-custom .contact span{
+  vertical-align: -10px;
+  padding-left: 3px;
+}
+.container-fluid-custom .social-media {
+  font-size: x-large;
+  direction: ltr;
+}
+.container-fluid-custom .social-media i {
+  vertical-align: -5px;
+  padding: 5px;
+}
+.container-fluid-custom .social-media i:hover {
+  background-color: orangered;
+  transition: 600ms;
+  border-radius: 4px;
+}
+/* end contact section  */

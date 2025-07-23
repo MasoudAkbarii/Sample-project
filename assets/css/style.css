@@ -1,34 +1,47 @@
-body {
-  direction: rtl;
+@import "_contact.css";
+/* start navbar section  */
+.nav {
+  background-color: #efefef;
+  overflow: hidden;
+  position: sticky;
+  top: 0px;
 }
-/* start contact seaction */
-.container-fluid-custom {
-  background-color: rgb(11, 11, 109);
-  color: #fff;
-  height: 40px;
+.active {
+  border-bottom: 2px solid blue;
 }
-.container-fluid-custom .contact {
-  font-size: 13px;
+.nav a {
+  color: rgb(64, 74, 64);
+  padding: 14px 16px;
+  font-size: 16px;
+  text-align: center;
+  float: right;
+  z-index: 999;
 }
-.container-fluid-custom .contact i{
-  color: orangered;
-  padding-left: 10px;
-  vertical-align: -10px;
+.hamber{
+    display: none;
 }
-.container-fluid-custom .contact span{
-  vertical-align: -10px;
-  padding-left: 3px;
+.nav a:hover {
+  border-bottom: 2px solid blue;
 }
-.container-fluid-custom .social-media {
-  font-size: x-large;
-  direction: ltr;
-}
-.container-fluid-custom .social-media i {
-  vertical-align: -5px;
-  padding: 5px;
-}
-.container-fluid-custom .social-media i:hover {
-  background-color: orangered;
-  transition: 600ms;
-  border-radius: 4px;
+@media screen and (max-width: 600px) {
+  .nav a:not(:first-child) {
+   display: none;
+  }
+  .nav a.hamber {
+    display: block;
+    float: left;
+  }
+  .nav.responsive {
+    position: relative;
+  }
+  .nav.responsive a.hamber {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .nav.responsive a {
+    display: block;
+    float: none;
+    text-align: right;
+  }
 }
