@@ -19,6 +19,20 @@
 .dark-blue {
   background-color: darkblue;
 }
+.container-fluid {
+  width: 100%;
+}
+.container {
+  clear: both;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 [class^="col-"] {
   float: right;
   padding-left: 15px;
@@ -30,6 +44,12 @@
 }
 .mt-20 {
   margin-top: 20px;
+}
+.box-shadow {
+  box-shadow: 1px 1px 1px black;
+}
+.border-radius {
+  border-radius: 100%;
 }
 /* col-xs */
 @media only screen and (max-width: 600px) {

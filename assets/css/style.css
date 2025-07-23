@@ -1,0 +1,15 @@
+body{
+    direction: rtl;
+}
+/* start contact seaction */
+.container-fluid-custom{
+    background-color: rgb(11, 11, 109);
+    color: #fff;
+}
+.container-fluid-custom .contact{
+    font-size: 13px;
+}
+.container-fluid-custom .contact i{
+    color: orangered;
+    margin: 5px;
+}
