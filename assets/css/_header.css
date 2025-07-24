@@ -1,0 +1,49 @@
+.img-header {
+  height: 86vh;
+}
+.overlay {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 90vh;
+}
+.header-title {
+  color: #fff;
+  max-width: 400px;
+  margin: 200px;
+}
+.header-title a {
+  background-color: orangered;
+  float: left;
+  border-radius: 3px;
+  padding: 5px 1px;
+  margin-left: 5px;
+}
+@media screen and (max-width: 1200px) {
+  .header-title {
+    width: 100%;
+    margin: 0;
+    background-color: rgb(255, 255, 255, 0.3);
+    color: black;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+  }
+  .img-header,
+  .overlay {
+    height: 100%;
+  }
+}
+@media screen and (max-width:678px){
+    .header-title h1{
+        font-size: 20px;
+    }
+    .header-title h3{
+        font: 15px;
+    }
+    .header-title a{
+        font-size: 14px
+    }
+}

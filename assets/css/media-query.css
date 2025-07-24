@@ -45,11 +45,23 @@
 .mt-20 {
   margin-top: 20px;
 }
+.mb-20 {
+  margin-bottom: 20px;
+}
+.p-0{
+padding: 0;
+}
+.absolute{
+  position: absolute;
+}
 .box-shadow {
   box-shadow: 1px 1px 1px black;
 }
 .border-radius {
   border-radius: 100%;
+}
+figure{
+  position: relative;
 }
 /* col-xs */
 @media only screen and (max-width: 600px) {
