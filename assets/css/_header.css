@@ -1,10 +1,10 @@
 .img-header {
-  height: 86vh;
+  height: 100vh;
 }
 .overlay {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.3);
-  height: 86vh;
+  height: 100vh;
 }
 .header-title {
   color: #fff;
