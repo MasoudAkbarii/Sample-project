@@ -4,6 +4,7 @@
   overflow: hidden;
   position: sticky;
   top: 0px;
+  z-index: 999;
 }
 .active {
   border-bottom: 2px solid blue;
@@ -14,7 +15,7 @@
   font-size: 16px;
   text-align: center;
   float: right;
-  z-index: 999;
+  
 }
 .hamber{
     display: none;

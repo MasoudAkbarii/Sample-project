@@ -41,6 +41,7 @@
 .img-responsive {
   width: 100%;
   height: auto;
+  vertical-align: bottom;
 }
 .mt-20 {
   margin-top: 20px;
@@ -50,6 +51,12 @@
 }
 .p-0{
 padding: 0;
+}
+.text-center{
+  text-align: center;
+}
+.relative{
+  position: relative;
 }
 .absolute{
   position: absolute;
