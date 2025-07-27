@@ -1,0 +1,24 @@
+.teacher-section-wrapper {
+  background-image: url(../img/background-teacher-section.png);
+}
+.teacher-intro {
+  background: #fff;
+  width: 100%;
+  height: auto;
+  box-shadow: 4px 6px 10px 1px #efefef;
+  border-radius: 2px;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.teacher-intro h3 span {
+  background-color: orangered;
+}
+.teacher-intro h3 {
+  margin: 30px 0 130px 0;
+}
+@media screen and (max-width: 600px) {
+  .teacher-intro h3 {
+    margin: 15px 0 65px 0;
+  }
+}
