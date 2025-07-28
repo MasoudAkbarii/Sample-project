@@ -3,9 +3,9 @@
 }
 .teacher-intro {
   background: #fff;
-  width: 100%;
+  width: 80%;
   height: auto;
-  box-shadow: 4px 6px 10px 1px #efefef;
+  box-shadow: 2px 5px 5px 0px #6b6a6a;
   border-radius: 2px;
   top: 95%;
   left: 50%;
@@ -13,12 +13,28 @@
 }
 .teacher-intro h3 span {
   background-color: orangered;
+  padding: 1px 10px;
+  color: #fff;
+  border-radius: 1px
 }
 .teacher-intro h3 {
-  margin: 30px 0 130px 0;
+  margin: 30px 0 80px 0;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .teacher-intro h3 {
-    margin: 15px 0 65px 0;
+    margin: 30px 0 15px 0;
   }
+}
+.teacher-intro a {
+  display: inline-block;
+  border: 1px solid orangered;
+  border-radius: 2px;
+  padding: 5px 10px;
+  margin: 10px;
+  transition: .5s ease-out;
+}
+.teacher-intro a:hover {
+  color: #fff;
+  background-color: orangered;
+  border-radius: 4px;
 }
