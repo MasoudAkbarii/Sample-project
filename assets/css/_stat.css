@@ -1,0 +1,31 @@
+.stat-section-wrapper {
+  background-color: #e7640d;
+  /* height: 250px; */
+}
+.stat-section-wrapper img {
+  width: 80px;
+  margin-top: 40px;
+}
+.stat-section-wrapper .count {
+  color: #fff;
+  margin-top: 20px;
+  font-size: 22px;
+}
+.stat-section-wrapper .count-title {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.stat-section-wrapper .count-happy {
+  color: #fff;
+  margin-top: 10px;
+  font-size: 22px;
+}
+.stat-section-wrapper .count-pepole {
+  color: #fff;
+  margin-top: 33px;
+  font-size: 22px;
+}
+.stat-section-wrapper .count-title-happy {
+  margin-top: 17px;
+  font-size: 18px;
+}
