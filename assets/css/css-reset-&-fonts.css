@@ -21,7 +21,7 @@ html {
 body {
   font-family: vazir-regular;
   line-height: 1.5;
-} 
+}
 a {
   background-color: transparent;
   text-decoration: none;
@@ -43,6 +43,12 @@ textarea {
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 button,

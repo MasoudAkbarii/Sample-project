@@ -1,0 +1,17 @@
+.topic-section-wrapper {
+  background-image: url(../img/bg1.png);
+  height: 900px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.topic-section-wrapper .card-header {
+  overflow: hidden;
+}
+.topic-wrapper:hover img{
+  transition: .5s ease;
+  transform: scale(1.2)  rotate(10deg);
+}
+.card-footer{
+    background-color: #efefef;
+}
