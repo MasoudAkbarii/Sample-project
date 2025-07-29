@@ -8,10 +8,56 @@
 .topic-section-wrapper .card-header {
   overflow: hidden;
 }
-.topic-wrapper:hover img{
-  transition: .5s ease;
-  transform: scale(1.2)  rotate(10deg);
+.topic-wrapper img {
+  transition: 0.4s ease-in-out;
 }
-.card-footer{
-    background-color: #efefef;
+.topic-wrapper:hover img {
+  transform: scale(1.2) rotate(4deg);
+}
+
+.card-footer {
+  background-color: #efefef;
+}
+.topic-wrapper .card {
+  box-shadow: 1px 5px 15px 2px rgba(68, 102, 242, 0.3);
+}
+.topic-wrapper .card-body a {
+  font-size: 14px;
+}
+.topic-wrapper .card-body {
+  padding:22px 10px;
+}
+.topic-wrapper .card-body .post-date{
+    top: -18px;
+    right: 7px;
+    width: 65px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+.topic-wrapper .card-body .post-date div:first-child{
+  background-color: orangered;
+}
+.topic-wrapper .card-body .post-date div:last-child{
+  background-color: #988c8c;
+}
+.topic-wrapper .card-body p{
+  font-size: 14px;
+  color: orangered;
+  margin-top: 10px;
+  line-height: 30px;
+}
+.topic-wrapper .card-footer ul{
+  color: #757171;
+  font-size: 12px;
+  text-align: center;
+  border-top: 1px solid;
+}
+.topic-wrapper .card-footer ul li{
+display: inline-block;
+padding: 5px;
+}
+.topic-wrapper .card-footer span {
+  padding: 5px;
+
 }
