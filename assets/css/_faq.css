@@ -1,0 +1,25 @@
+.faq-bg {
+  background-image: url(../img/faq-bg.png);
+  min-height: 400px;
+}
+.faq-section-wrapper .faq-right-side {
+  box-shadow: 1px 5px 15px 2px rgba(68, 102, 242, 0.3);
+  height: 300px;
+  background-color: #fff;
+  padding: 50px;
+}
+.faq-section-wrapper .faq-right-side h6{
+    font-size: 14px;
+    vertical-align: 5px;
+}
+.faq-section-wrapper .faq-right-side h6 i{
+    font-size: 26px;
+    margin-left: 15px;
+    vertical-align: -7px;
+    color: orangered;
+}
+.faq-section-wrapper .faq-right-side p{
+    margin:10px 47px 0 0;
+    font-size: 14px;
+    color: #989898;
+}

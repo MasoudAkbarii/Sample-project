@@ -5,6 +5,21 @@
   background-position: center;
   background-size: cover;
 }
+@media screen and (max-width:1200px){
+  .topic-section-wrapper{
+    height: 1200px;
+  }
+}
+@media screen and (max-width:768px){
+  .topic-section-wrapper{
+    height: 5200px;
+  }
+}
+@media screen and (max-width:600px){
+  .topic-section-wrapper{
+    height: 300px;
+  }
+}
 .topic-section-wrapper .card-header {
   overflow: hidden;
 }
