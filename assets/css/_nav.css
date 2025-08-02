@@ -7,25 +7,29 @@
   z-index: 999;
 }
 .active {
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid orangered;
+}
+.nav a.brand {
+  color: orangered;
+  font-size: 22px;
 }
 .nav a {
   color: rgb(64, 74, 64);
-  padding: 14px 16px;
+  padding: 4px 16px;
   font-size: 16px;
   text-align: center;
   float: right;
-  
+  line-height: 51px;
 }
-.hamber{
-    display: none;
+.hamber {
+  display: none;
 }
 .nav a:hover {
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid orangered;
 }
 @media screen and (max-width: 600px) {
   .nav a:not(:first-child) {
-   display: none;
+    display: none;
   }
   .nav a.hamber {
     display: block;

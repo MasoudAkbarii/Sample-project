@@ -3,15 +3,16 @@
 }
 .overlay {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  /* background-color: rgba(0, 0, 0, 0.3); */
   height: 100vh;
 }
 .header-title {
-  color: #fff;
+  color: #242424;
   max-width: 400px;
   margin: 200px;
 }
 .header-title a {
+  color: #fff;
   background-color: orangered;
   float: left;
   border-radius: 3px;
